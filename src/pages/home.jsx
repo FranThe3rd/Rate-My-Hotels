@@ -5,6 +5,8 @@ import hotel from '../assets/hotel-background.jpg'
 export const Home = () => {
   return (
     <div className="home">
+      <div class="sun"></div>
+
 
       <div className="hotel-img-container"
             style={{ backgroundImage: `url(${hotel})` }}
