@@ -26,7 +26,7 @@ export const Home = () => {
         
       </div>
               <h1 className='home-join'>Join the RMH Family</h1>
-        <h1 className='home-join-caption'>Love RMP? Let's make it official.</h1>
+        <h1 className='home-join-caption'>Love RMH? Let's make it official.</h1>
 
 
       <div className='image-grid'>
@@ -53,6 +53,7 @@ Terms & Conditions
 Privacy Policy
 Copyright Compliance Policy
 CA Notice at Collection</p>
+<p className='banner-text-rights'>© 2025 Rate My Hotels, LLC. All Rights Reserved</p>
         </div>
     </div>
   )
