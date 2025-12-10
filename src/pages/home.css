@@ -1,116 +1,129 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
 
-.sun {
-    width: 550px;
-    height: 300px;
-    background: rgba(255, 242, 0, 0.152);
+    .sun {
+        width: 550px;
+        height: 300px;
+        background: rgba(255, 242, 0, 0.152);
 
-    position: fixed;
-    top: -120px;   /* move half outside the screen vertically */
-    right: 50px; /* move half outside horizontally */
-   
-    border-bottom-left-radius: 40%;
-    border-bottom-right-radius: 60%;
-
-}
-
-
-
-.hotel-img-container {
-      font-family: "Plus Jakarta Sans", sans-serif;
-    position: relative;
-    max-width: 100%;
-    height: 402px;
-    margin: 0 auto;
-    margin-top: 150px;
-    background-size: cover;
-
-
-}
-
-.hotel-img-container::before {
-    content: "";
-    position: absolute;
-    inset: 0; /* top:0 right:0 bottom:0 left:0 */
-    background: rgba(0, 0, 0, 0.4); /* <<< adjust darkness */
-    z-index: 1;
-}
-
-.home-text-div {
-    position: relative;
-    width: 550px;
-    height: 100%;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 40px;
-    z-index: 999999;
-
-
-
-}
-
-
-.home-img {
-    display: block;
-    width: 450px;
-    height: 90px;
-    margin: 0 auto;
-    margin-bottom: 40px;
-}
-
-
-.home-title {
-    width: fit-content;
-    color: white;
-    margin: 0 auto;
+        position: absolute;
+        top: -120px;   /* move half outside the screen vertically */
+        right: 50px; /* move half outside horizontally */
     
-    text-align: center;
-    margin-bottom: 60px;
-        font-weight: 400 ;
-    font-size: 32px;
+        border-bottom-left-radius: 40%;
+        border-bottom-right-radius: 60%;
 
-}
+    }
 
-.test-input {
-    width: 500px;
-    height: 55px;
-    border-radius: 40px;
-    border: none;
-    color: black;
-    padding-left: 20px;
-}
 
-.caption {
-    color: white;
-}
 
-.home-join {
-
-    display: block;
-    text-align: center;
-    margin-top: -20px;
-    font-size: 24px;
-    font-weight: 1800;
-}
-
-.home-join-caption {
-display: block;
-    text-align: center;
-    font-size: 24px;
-    font-weight: 200;
-    margin-bottom: 30px;
-}
-
-.image-grid {
-    width: 90%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: 0 auto;
-}
-
-.image-grid img {
+    .hotel-img-container {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        position: relative;
+        max-width: 100%;
+        height: 402px;
         margin: 0 auto;
+        margin-top: 150px;
+        background-size: cover;
 
-    max-width: 400px;
-}
+
+    }
+
+    .hotel-img-container::before {
+        content: "";
+        position: absolute;
+        inset: 0; /* top:0 right:0 bottom:0 left:0 */
+        background: rgba(0, 0, 0, 0.4); /* <<< adjust darkness */
+        z-index: 1;
+    }
+
+    .home-text-div {
+        position: relative;
+        width: 550px;
+        height: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 40px;
+        z-index: 999999;
+
+
+
+    }
+
+
+    .home-img {
+        display: block;
+        width: 450px;
+        height: 90px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+
+    .home-title {
+        width: fit-content;
+        color: white;
+        margin: 0 auto;
+        
+        text-align: center;
+        margin-bottom: 60px;
+            font-weight: 400 ;
+        font-size: 32px;
+
+    }
+
+    .test-input {
+        width: 500px;
+        height: 55px;
+        border-radius: 40px;
+        border: none;
+        color: black;
+        padding-left: 20px;
+    }
+
+    .caption {
+        color: white;
+    }
+
+    .home-join {
+
+        display: block;
+        text-align: center;
+        margin-top: -20px;
+        font-size: 24px;
+        font-weight: 1800;
+    }
+
+    .home-join-caption {
+    display: block;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 200;
+        margin-bottom: 30px;
+    }
+
+    .image-grid {
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 0 auto;
+        gap: 100px;
+    }
+
+    .image-grid img {
+            margin: 0 auto;
+
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .grid-info-home {
+
+    }
+
+    .grid-info-home p {
+        color: black;
+        font-size: 24px;
+        text-align: center;
+        font-weight: bolder;
+    }
