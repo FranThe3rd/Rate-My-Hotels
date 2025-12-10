@@ -21,13 +21,18 @@ export const Home = () => {
           <input className='test-input' type="text" value="" />
           <p className='caption'>I'd like to look up a hotel by name</p>
         </div>
-        <h1 className='home-join'>Join the RMH Family</h1>
+        
+        
+        
+      </div>
+              <h1 className='home-join'>Join the RMH Family</h1>
         <h1 className='home-join-caption'>Love RMP? Let's make it official.</h1>
-        <div className='image-grid'>
+
+
+      <div className='image-grid'>
           <div className='grid-info-home'>
             <img src={manage}></img>
-                        <p>Manage and edit your ratings</p>
-
+            <p>Manage and edit your ratings</p>
           </div>
           <div className='grid-info-home'>
             <img src={privacy}></img>
@@ -38,11 +43,17 @@ export const Home = () => {
             <p> Like or dislike ratings</p>
           </div>
         </div>
-        <button className='sign-up-now'></button>
 
-
-      </div>
-
+        
+        <button className='sign-up-now-btn'>Sign up now!</button>
+        <div className='banner'>
+          <p className='banner-text'>Help
+Site Guidelines
+Terms & Conditions
+Privacy Policy
+Copyright Compliance Policy
+CA Notice at Collection</p>
+        </div>
     </div>
   )
 }
