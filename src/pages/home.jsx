@@ -31,15 +31,15 @@ export const Home = () => {
 
       <div className='image-grid'>
           <div className='grid-info-home'>
-            <img src={manage}></img>
+            <img className='grid-img-icon' src={manage}></img>
             <p>Manage and edit your ratings</p>
           </div>
           <div className='grid-info-home'>
-            <img src={privacy}></img>
+            <img className='grid-img-icon'  src={privacy}></img>
             <p>Your ratings<br /> are always anonymous</p>
           </div>
           <div className='grid-info-home'>
-            <img src={like}></img>
+            <img className='grid-img-icon' src={like}></img>
             <p> Like or dislike ratings</p>
           </div>
         </div>
