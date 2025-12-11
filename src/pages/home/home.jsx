@@ -1,11 +1,14 @@
 import './home.css'
-import logo from '../assets/logo.png'
-import hotel from '../assets/hotel-background.jpg'
-import manage from '../assets/manage.png'
-import privacy from '../assets/privacy.png'
-import like from '../assets/like.png'
+import logo from '../../assets/logo.png'
+import hotel from '../../assets/hotel-background.jpg'
+import manage from '../../assets/manage.png'
+import privacy from '../../assets/privacy.png'
+import like from '../../assets/like.png'
+import { useNavigate } from 'react-router-dom'
 
 export const Home = () => {
+
+  const navigate = useNavigate()
   return (
     <div className="home">
       <div class="sun"></div>
@@ -45,7 +48,7 @@ export const Home = () => {
         </div>
 
         
-        <button className='sign-up-now-btn'>Sign up now!</button>
+        <button onClick={()=>navigate('/list')} className='sign-up-now-btn'>Sign up now!</button>
         <div className='banner'>
           <p className='banner-text'>Help
 Site Guidelines
