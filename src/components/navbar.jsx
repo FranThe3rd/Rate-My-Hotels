@@ -3,8 +3,8 @@ import './navbar.css'
 
 const Navbar = () => {
   return (
-    <div className='navbar'>
-        <div className='navbar-text'> 
+    <div className='navbar navbartwo'>
+        <div className='navbar-text navbartwo-text'> 
         <a href="">Log In</a>       
          <a href="">Sign Up</a>
     </div>

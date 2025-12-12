@@ -24,40 +24,40 @@ export const Home = () => {
           <input className='test-input' type="text" value="" />
           <p className='caption'>I'd like to look up a hotel by name</p>
         </div>
-        
-        
-        
+
+
+
       </div>
-              <h1 className='home-join'>Join the RMH Family</h1>
-        <h1 className='home-join-caption'>Love RMH? Let's make it official.</h1>
+      <h1 className='home-join'>Join the RMH Family</h1>
+      <h1 className='home-join-caption'>Love RMH? Let's make it official.</h1>
 
 
       <div className='image-grid'>
-          <div className='grid-info-home'>
-            <img className='grid-img-icon' src={manage}></img>
-            <p>Manage and edit your ratings</p>
-          </div>
-          <div className='grid-info-home'>
-            <img className='grid-img-icon'  src={privacy}></img>
-            <p>Your ratings<br /> are always anonymous</p>
-          </div>
-          <div className='grid-info-home'>
-            <img className='grid-img-icon' src={like}></img>
-            <p> Like or dislike ratings</p>
-          </div>
+        <div className='grid-info-home'>
+          <img className='grid-img-icon' src={manage}></img>
+          <p>Manage and edit your ratings</p>
         </div>
+        <div className='grid-info-home'>
+          <img className='grid-img-icon' src={privacy}></img>
+          <p>Your ratings<br /> are always anonymous</p>
+        </div>
+        <div className='grid-info-home'>
+          <img className='grid-img-icon' src={like}></img>
+          <p> Like or dislike ratings</p>
+        </div>
+      </div>
 
-        
-        <button onClick={()=>navigate('/list')} className='sign-up-now-btn'>Sign up now!</button>
-        <div className='banner'>
-          <p className='banner-text'>Help
-Site Guidelines
-Terms & Conditions
-Privacy Policy
-Copyright Compliance Policy
-CA Notice at Collection</p>
-<p className='banner-text-rights'>© 2025 Rate My Hotels, LLC. All Rights Reserved</p>
-        </div>
+
+      <button onClick={() => navigate('/list')} className='sign-up-now-btn'>Sign up now!</button>
+      <div className='banner'>
+        <p className='banner-text'>Help
+          Site Guidelines
+          Terms & Conditions
+          Privacy Policy
+          Copyright Compliance Policy
+          CA Notice at Collection</p>
+        <p className='banner-text-rights'>© 2025 Rate My Hotels, LLC. All Rights Reserved</p>
+      </div>
     </div>
   )
 }
